@@ -153,6 +153,14 @@ nav button.switch::after {
     align-items: center;
 }
 
+.square_card:hover {
+    background-color: #333A56; 
+}
+
+.square_card.hovereffect:hover {
+    background-color: #E1E3F0; 
+}
+
 .square_card:nth-of-type(1) {
     border-top: 4px solid hsl(208, 92%, 53%);
 }
@@ -208,6 +216,14 @@ nav button.switch::after {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.rect_card:hover {
+    background-color: #333A56; 
+}
+
+.rect_card.hovereffect:hover {
+    background-color: #E1E3F0; 
 }
 
 .bg {
