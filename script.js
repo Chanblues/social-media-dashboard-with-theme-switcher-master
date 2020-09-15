@@ -15,10 +15,12 @@ function change() {
 
     for (let i = 0; n = rectCard.length, i < n; i++) {
         rectCard[i].classList.toggle('bg'); 
+        rectCard[i].classList.toggle('hovereffect');
     }
 
     for (let i = 0; n = squareCard.length, i < n; i++) {
         squareCard[i].classList.toggle('bg');  
+        squareCard[i].classList.toggle('hovereffect');
     }
 
     for (let i = 0; i < numberCount.length; i++) {
